@@ -44,7 +44,8 @@ StudentProject/
 
 Run in MySQL:
 
-```sql-
+```
+sql-
 CREATE DATABASE IF NOT EXISTS sms;
 USE sms;
 
@@ -52,8 +53,8 @@ CREATE TABLE students(
     id INT PRIMARY KEY,
     name VARCHAR(50),
     age INT,
-    course VARCHAR(50)
-);```
+    course VARCHAR(50));
+
 ===================================================================================
 ```▶️ How to Run
 	1.	Clone the repo
