@@ -44,7 +44,7 @@ StudentProject/
 
 Run in MySQL:
 
-sql-
+```sql-
 CREATE DATABASE IF NOT EXISTS sms;
 USE sms;
 
@@ -53,13 +53,13 @@ CREATE TABLE students(
     name VARCHAR(50),
     age INT,
     course VARCHAR(50)
-);
+);```
 ===================================================================================
-▶️ How to Run
+```▶️ How to Run
 	1.	Clone the repo
 	2.	Add MySQL Connector JAR
 	3.	Update DB username/password
-	4.	Run Main.java
+	4.	Run Main.java```
 ====================================================================================
     📌 Sample Output
     ===== Student Management System =====
